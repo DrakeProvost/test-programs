@@ -10,7 +10,6 @@ sleep_time = 1
 
 # configure the GPIO pins
 GPIO.setmode(GPIO.BCM)
-bcm_pin_num = 4
 GPIO.setup(bcm_pin_num, GPIO.OUT)
 
 # blink the LED on and off repeatedly
