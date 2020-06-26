@@ -5,7 +5,7 @@ import RPi.GPIO as GPIO
 import time
 
 # SET THESE TO THE DESIRED VALUES
-bcm_pin_num = 4
+bcm_pin_num = 18
 sleep_time = 1
 
 # configure the GPIO pins

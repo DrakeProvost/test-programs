@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name blink-led-kicad-rescue)(type Legacy)(uri ${KIPRJMOD}/blink-led-kicad-rescue.lib)(options "")(descr ""))
-)
