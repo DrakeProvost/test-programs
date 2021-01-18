@@ -18,6 +18,8 @@ from kivy.app import App
 from kivy.lang import Builder
 from kivy.uix.boxlayout import BoxLayout
 import time
+from kivy.core.window import Window     # added by Drake Provost
+Window.fullscreen = 'auto'              # added by Drake Provost
 Builder.load_string('''
 <CameraClick>:
     orientation: 'vertical'
